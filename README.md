@@ -5,6 +5,10 @@ Marikita mencoba mengembangkan aplikasi webnews, untuk memualai mengembangkan da
 ```
 git clone https://github.com/hendarSu/webnews.git
 ```
+### Install Dependency
+```
+npm install
+```
 setting konfigurasi db di folder config, untuk ORM kita menggunakna Sequelize, dan setelah database di konfigurasi selanjutnya install sequelize-cli di global library node kita dengan cara `npm i sequelize-cli -g`
 setelah proses di atas di lakukan selanjutnya lakukan, create database menggunakan perintah
 ```
